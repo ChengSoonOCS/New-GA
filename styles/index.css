@@ -1,4 +1,8 @@
 /* styles.css */
 body {
-    background-color: #314529;
+    background-color: #bde9c8;
+}
+
+.nav-Text {
+    color: white;
 }
