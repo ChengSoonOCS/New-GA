@@ -1,16 +1,40 @@
+/* styles.css */
 body {
-    background-color: #1a1a1a;
-    color: #fff;
-    font-family: Arial, sans-serif;
+    background-color: #bde9c8;
+}
+
+.nav-Text {
+    color: white;
+}
+
+/* Center the navigation items horizontally */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the login button */
+.signinbtn {
+    background: linear-gradient(to right, #44c767, #5cbf2a);
+    border-radius: 28px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: auto;
+}
+
+.login-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* Adjust as needed */
     margin: 0;
 }
 
 .login-container {
-    background-color: #2c2c2c;
+    background-color: grey;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
